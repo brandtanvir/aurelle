@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Aurelle — Marketing assets</title>
+<style>
+@font-face { font-family: 'DM Sans'; src: url('../assets/fonts/DMSans-Variable.ttf') format('truetype'); font-weight: 100 1000; }
+:root { --paper: #FAFBFC; --mist: #EEF3F8; --ink: #0E1B2A; --ink2: #3A4757; --grey: #808B97; --muted: #5E6A77; --navy: #0B1A2B; --navy2: #12273F; --line: rgba(14,27,42,.14); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #2a2f36; font-family: 'DM Sans', sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; padding: 40px; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; font-variant-numeric: lining-nums; }
+.asset { position: relative; overflow: hidden; background: var(--paper); flex: none; }
+.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.shade-b { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(6,18,32,.35) 0%, rgba(6,18,32,0) 28%, rgba(6,18,32,0) 52%, rgba(6,18,32,.72) 100%); }
+.w { color: #fff; }
+.t { color: var(--grey); }
+.w .t { color: rgba(255,255,255,.58); }
+.mark { font-weight: 500; letter-spacing: -0.01em; }
+.lbl { font-size: 26px; font-weight: 500; display: flex; gap: 12px; }
+.lbl span { color: var(--grey); font-weight: 400; }
+.w .lbl span { color: rgba(255,255,255,.6); }
+.pad { position: absolute; inset: 72px; display: flex; flex-direction: column; justify-content: space-between; }
+.row { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
+.small { font-size: 26px; line-height: 1.45; }
+.pill { display: inline-flex; align-items: center; gap: 14px; height: 92px; padding: 0 44px; border-radius: 999px; font-size: 32px; font-weight: 500; }
+.pill.light { background: #fff; color: var(--ink); }
+.pill.dark { background: var(--ink); color: #fff; }
+.num { font-variant-numeric: tabular-nums; }
+.rule { border-top: 1.5px solid var(--line); }
+.w .rule { border-color: rgba(255,255,255,.28); }
+</style>
+</head>
+<body>
+
+<!-- ============ Profile pictures 1080 × 1080 ============ -->
+<div class="asset" data-name="avatar-navy" style="width:1080px;height:1080px;background:radial-gradient(circle at 50% 38%, #1B3657 0%, #0B1A2B 70%)">
+  <p class="mark w" style="position:absolute;inset:0;display:grid;place-items:center;font-size:200px">Aurelle</p>
+</div>
+<div class="asset" data-name="avatar-sky" style="width:1080px;height:1080px;background:linear-gradient(180deg,#8EC5F0 0%,#CFE5F7 62%,#F4F8FC 100%)">
+  <p class="mark" style="position:absolute;inset:0;display:grid;place-items:center;font-size:200px">Aurelle</p>
+</div>
+
+<!-- ============ Instagram feed 1080 × 1350 ============ -->
+<div class="asset w" data-name="ig-01" style="width:1080px;height:1350px">
+  <img class="bg" src="../assets/photo/jet-wing.jpg" style="object-position:60% 50%" alt="" /><div class="shade-b"></div>
+  <div class="pad"><p class="mark" style="font-size:44px">Aurelle</p>
+    <div><p style="font-size:132px;line-height:.98;letter-spacing:-0.03em">Time,<br/><span class="t">returned.</span></p>
+    <p class="small" style="margin-top:32px;color:rgba(255,255,255,.8)">Charter · Membership · Empty legs</p></div></div>
+</div>
+
+<div class="asset" data-name="ig-02" style="width:1080px;height:1350px">
+  <div class="pad"><p class="lbl"><span>(01)</span>Our belief</p>
+    <p style="font-size:104px;line-height:1.02;letter-spacing:-0.025em">The quietest room you will ever <span class="t">cross an ocean in.</span></p>
+    <div class="row rule" style="padding-top:28px"><p class="mark" style="font-size:40px">Aurelle</p><p class="small" style="color:var(--muted)">Private aviation</p></div></div>
+</div>
+
+<div class="asset w" data-name="ig-03" style="width:1080px;height:1350px">
+  <img class="bg" src="../assets/photo/club-seating.webp" alt="" /><div class="shade-b"></div>
+  <div class="pad"><p class="lbl"><span>(03)</span>Ultra-long-range</p>
+    <div><p style="font-size:110px;line-height:1;letter-spacing:-0.025em">Thirteen seats.<br/><span class="t">Four rooms.</span></p>
+    <p class="small" style="margin-top:28px;color:rgba(255,255,255,.8)">One door that closes. 13,890 km without a stop.</p></div></div>
+</div>
+
+<div class="asset" data-name="ig-04" style="width:1080px;height:1350px;background:var(--mist)">
+  <div class="pad"><div class="row" style="align-items:flex-start"><p class="lbl"><span>(07)</span>Empty leg · This week</p><p class="mark" style="font-size:34px">Aurelle</p></div>
+    <div>
+      <div style="display:flex;align-items:baseline;justify-content:space-between"><p class="num" style="font-size:250px;line-height:.85;letter-spacing:-0.03em">GVA</p><p class="small" style="color:var(--muted)">Geneva</p></div>
+      <div style="height:1.5px;background:var(--ink);margin:36px 0;position:relative"><i style="position:absolute;right:0;top:-11px;width:24px;height:24px;border-radius:50%;background:var(--ink)"></i></div>
+      <div style="display:flex;align-items:baseline;justify-content:space-between"><p class="num" style="font-size:250px;line-height:.85;letter-spacing:-0.03em">DXB</p><p class="small" style="color:var(--muted)">Dubai</p></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px" class="rule">
+      <div style="padding-top:24px"><p class="small" style="color:var(--muted)">Departs</p><p style="font-size:34px;margin-top:6px" class="num">Fri 24 Oct · 09:40</p></div>
+      <div style="padding-top:24px"><p class="small" style="color:var(--muted)">Aircraft</p><p style="font-size:34px;margin-top:6px">Super-midsize · 8</p></div>
+      <div style="padding-top:24px"><p class="small" style="color:var(--muted)">From</p><p style="font-size:34px;margin-top:6px" class="num">$18,400</p></div>
+    </div></div>
+</div>
+
+<div class="asset w" data-name="ig-05" style="width:1080px;height:1350px">
+  <img class="bg" src="../assets/photo/window-dusk.jpg" style="object-position:50% 50%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,32,.35) 0%,rgba(6,18,32,.0) 22%,rgba(6,18,32,.0) 50%,rgba(6,18,32,.6) 100%)"></div>
+  <div class="pad"><p class="lbl"><span>(05)</span>Window seat</p>
+    <p style="font-size:104px;line-height:1;letter-spacing:-0.025em">Golden hour,<br/><span class="t">41,000 ft.</span></p></div>
+</div>
+
+<div class="asset w" data-name="ig-06" style="width:1080px;height:1350px;background:radial-gradient(circle at 70% 30%, #1B3657 0%, #0B1A2B 65%)">
+  <div class="pad"><p class="lbl"><span>(06)</span>Global reach</p>
+    <div><p class="num" style="font-size:400px;line-height:.82;letter-spacing:-0.035em">190+</p>
+    <p style="font-size:84px;line-height:1.02;letter-spacing:-0.02em;margin-top:40px">countries. <span class="t">One quote.</span></p></div>
+    <div class="row rule" style="padding-top:28px"><p class="mark" style="font-size:40px">Aurelle</p><p class="small" style="color:rgba(255,255,255,.6)">Subject to runway, permits and sanctions</p></div></div>
+</div>
+
+<div class="asset w" data-name="ig-07" style="width:1080px;height:1350px">
+  <img class="bg" src="../assets/photo/aperitif.webp" style="object-position:62% 50%" alt="" /><div class="shade-b"></div>
+  <div class="pad"><p class="lbl"><span>(04)</span>Experience</p>
+    <div><p style="font-size:120px;line-height:1;letter-spacing:-0.025em">Dining<br/><span class="t">aloft.</span></p>
+    <p class="small" style="margin-top:28px;color:rgba(255,255,255,.8)">Menus planned with you, not for you.</p></div></div>
+</div>
+
+<div class="asset" data-name="ig-08" style="width:1080px;height:1350px;background:linear-gradient(180deg,#8EC5F0 0%,#CFE5F7 55%,#F4F8FC 100%)">
+  <div class="pad"><p class="lbl"><span style="color:var(--ink2)">(05)</span>Membership</p>
+    <div><p class="num" style="font-size:300px;line-height:.85;letter-spacing:-0.035em">25 h</p>
+    <p style="font-size:76px;line-height:1.04;letter-spacing:-0.02em;margin-top:40px">One fixed hourly rate. <span style="color:var(--ink2)">A discount that grows.</span></p></div>
+    <div class="row" style="border-top:1.5px solid rgba(14,27,42,.25);padding-top:28px"><p class="mark" style="font-size:40px">Aurelle</p><p class="small" style="color:var(--ink2)">Jet Card · 25 · 50 · 100+ hours</p></div></div>
+</div>
+
+<div class="asset w" data-name="ig-09" style="width:1080px;height:1350px">
+  <img class="bg" src="../assets/photo/stratosphere.jpg" style="object-position:50% 62%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,32,.25) 0%,rgba(6,18,32,0) 40%)"></div>
+  <div class="pad"><div><p class="lbl"><span>(02)</span>Altitude</p>
+    <p style="font-size:120px;line-height:1;letter-spacing:-0.025em;margin-top:40px">Above<br/><span class="t">the weather.</span></p></div>
+    <p class="mark" style="font-size:40px;color:var(--ink)">Aurelle</p></div>
+</div>
+
+<!-- ============ Instagram stories 1080 × 1920 ============ -->
+<div class="asset w" data-name="story-01" style="width:1080px;height:1920px">
+  <img class="bg" src="../assets/photo/stratosphere.jpg" style="object-position:50% 70%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,32,.55) 0%,rgba(6,18,32,.1) 45%,rgba(6,18,32,.0) 60%,rgba(6,18,32,.55) 100%)"></div>
+  <div class="pad" style="inset:220px 80px 200px">
+    <div><p class="lbl"><span>(—)</span>Empty-leg alert</p>
+      <p style="font-size:200px;line-height:.9;letter-spacing:-0.03em;margin-top:60px">Nice</p>
+      <p style="font-size:200px;line-height:.9;letter-spacing:-0.03em" class="t">London</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:64px" class="rule">
+        <div style="padding-top:24px"><p class="small" style="color:rgba(255,255,255,.65)">Tomorrow</p><p class="num" style="font-size:44px;margin-top:6px">09:40</p></div>
+        <div style="padding-top:24px"><p class="small" style="color:rgba(255,255,255,.65)">From</p><p class="num" style="font-size:44px;margin-top:6px">$9,800</p></div>
+        <div style="padding-top:8px"><p class="small" style="color:rgba(255,255,255,.65)">Aircraft</p><p style="font-size:44px;margin-top:6px">Light jet</p></div>
+        <div style="padding-top:8px"><p class="small" style="color:rgba(255,255,255,.65)">Seats</p><p class="num" style="font-size:44px;margin-top:6px">6</p></div>
+      </div></div>
+    <div style="display:flex;justify-content:center"><span class="pill light">See the board&nbsp;→</span></div>
+  </div>
+</div>
+
+<div class="asset" data-name="story-02" style="width:1080px;height:1920px">
+  <div class="pad" style="inset:220px 80px 0">
+    <div><p class="lbl"><span>(09)</span>Booking</p>
+      <p class="num" style="font-size:250px;line-height:.85;letter-spacing:-0.035em;margin-top:56px">60 s</p>
+      <p style="font-size:72px;line-height:1.05;letter-spacing:-0.02em;margin-top:28px">Four steps. No account. <span class="t">A human calls back.</span></p></div>
+    <div style="align-self:center;width:560px;border-radius:72px 72px 0 0;padding:18px 18px 0;background:#0c0f14;height:760px;overflow:hidden">
+      <img src="../img/m-book.jpg" alt="" style="width:100%;border-radius:56px 56px 0 0;display:block" /></div>
+  </div>
+</div>
+
+<div class="asset w" data-name="story-03" style="width:1080px;height:1920px">
+  <img class="bg" src="../assets/photo/aisle.webp" style="object-position:40% 50%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,32,.82) 0%,rgba(6,18,32,.35) 34%,rgba(6,18,32,0) 52%,rgba(6,18,32,.8) 100%)"></div>
+  <div class="pad" style="inset:220px 80px 200px">
+    <div><p class="lbl"><span>(03)</span>Ultra-long-range</p>
+      <p style="font-size:130px;line-height:.98;letter-spacing:-0.025em;margin-top:44px">A room that<br/><span class="t">happens to fly.</span></p></div>
+    <div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px" class="rule">
+        <div style="padding-top:22px"><p class="num" style="font-size:64px">13</p><p class="small" style="color:rgba(255,255,255,.7)">Seats</p></div>
+        <div style="padding-top:22px"><p class="num" style="font-size:64px">4</p><p class="small" style="color:rgba(255,255,255,.7)">Zones</p></div>
+        <div style="padding-top:22px"><p class="num" style="font-size:64px">13,890</p><p class="small" style="color:rgba(255,255,255,.7)">km range</p></div></div>
+      <div style="display:flex;justify-content:center;margin-top:72px"><span class="pill light">Explore the cabin&nbsp;→</span></div></div>
+  </div>
+</div>
+
+<!-- ============ Covers ============ -->
+<div class="asset w" data-name="cover-linkedin" style="width:1584px;height:396px">
+  <img class="bg" src="../assets/photo/horizon.jpg" style="object-position:50% 40%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,18,32,0) 30%,rgba(6,18,32,.55) 100%)"></div>
+  <div style="position:absolute;right:64px;top:56px;bottom:56px;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;text-align:right">
+    <p class="mark" style="font-size:34px">Aurelle</p>
+    <p style="font-size:64px;line-height:1;letter-spacing:-0.02em">Time, <span class="t">returned.</span></p>
+    <p style="font-size:20px;color:rgba(255,255,255,.75)">Charter · Jet Card membership · Empty legs · 190+ countries</p></div>
+</div>
+
+<div class="asset w" data-name="cover-x" style="width:1500px;height:500px">
+  <img class="bg" src="../assets/photo/jet-wing.jpg" style="object-position:50% 45%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,18,32,.0) 45%,rgba(6,18,32,.45) 100%)"></div>
+  <div style="position:absolute;right:64px;top:64px;text-align:right">
+    <p style="font-size:72px;line-height:1;letter-spacing:-0.02em">Every seat is <span class="t">a window seat.</span></p>
+    <p class="mark" style="font-size:30px;margin-top:22px">Aurelle</p></div>
+</div>
+
+<div class="asset w" data-name="cover-youtube" style="width:2560px;height:1440px;background:var(--navy)">
+  <img class="bg" src="../assets/photo/wing-snow.jpg" style="object-position:50% 50%" alt="" />
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%, rgba(6,18,32,.15) 0%, rgba(6,18,32,.55) 90%)"></div>
+  <div style="position:absolute;left:507px;right:507px;top:509px;bottom:509px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+    <p style="font-size:132px;line-height:1;letter-spacing:-0.025em">Aurelle</p>
+    <p style="font-size:34px;margin-top:24px;color:rgba(255,255,255,.8)">Private aviation, quietly.</p></div>
+</div>
+
+<!-- ============ Jet Card 1012 × 638 (85.6 × 54 mm) ============ -->
+<div class="asset w" data-name="card-navy" style="width:1012px;height:638px;border-radius:44px;background:linear-gradient(135deg,#1C3555 0%,#0B1A2B 46%,#13263E 100%)">
+  <div style="position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 1px,transparent 1px 7px)"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.13) 48%,rgba(255,255,255,0) 62%)"></div>
+  <div class="pad" style="inset:60px 64px">
+    <div class="row" style="align-items:flex-start"><p class="mark" style="font-size:58px">Aurelle</p><p style="font-size:22px;color:rgba(255,255,255,.7);text-align:right">Jet Card<br/><span style="color:#fff;font-size:44px" class="num">50 h</span></p></div>
+    <p class="num" style="font-size:38px;letter-spacing:.08em;color:rgba(255,255,255,.85)">0950 2611 0418</p>
+    <div class="row"><div><p style="font-size:18px;color:rgba(255,255,255,.6)">Member</p><p style="font-size:30px;margin-top:4px">Elena Marchetti</p></div>
+      <div style="text-align:right"><p style="font-size:18px;color:rgba(255,255,255,.6)">Since</p><p class="num" style="font-size:30px;margin-top:4px">2026</p></div></div>
+  </div>
+</div>
+
+<div class="asset" data-name="card-pearl" style="width:1012px;height:638px;border-radius:44px;background:linear-gradient(135deg,#FFFFFF 0%,#E7EEF5 50%,#F7FAFC 100%)">
+  <div style="position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(14,27,42,.03) 0 1px,transparent 1px 7px)"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.9) 48%,rgba(255,255,255,0) 62%)"></div>
+  <div class="pad" style="inset:60px 64px">
+    <div class="row" style="align-items:flex-start"><p class="mark" style="font-size:58px">Aurelle</p><p style="font-size:22px;color:var(--muted);text-align:right">Jet Card<br/><span style="color:var(--ink);font-size:44px" class="num">25 h</span></p></div>
+    <p class="num" style="font-size:38px;letter-spacing:.08em;color:var(--ink2)">0250 1907 2233</p>
+    <div class="row"><div><p style="font-size:18px;color:var(--muted)">Member</p><p style="font-size:30px;margin-top:4px">Ryan Okafor</p></div>
+      <div style="text-align:right"><p style="font-size:18px;color:var(--muted)">Since</p><p class="num" style="font-size:30px;margin-top:4px">2026</p></div></div>
+  </div>
+</div>
+
+<div class="asset w" data-name="card-graphite" style="width:1012px;height:638px;border-radius:44px;background:linear-gradient(135deg,#3A3F46 0%,#16191D 50%,#2A2E34 100%)">
+  <div style="position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 1px,transparent 1px 7px)"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.12) 48%,rgba(255,255,255,0) 62%)"></div>
+  <div class="pad" style="inset:60px 64px">
+    <div class="row" style="align-items:flex-start"><p class="mark" style="font-size:58px">Aurelle</p><p style="font-size:22px;color:rgba(255,255,255,.7);text-align:right">Jet Card<br/><span style="color:#fff;font-size:44px" class="num">100+ h</span></p></div>
+    <p class="num" style="font-size:38px;letter-spacing:.08em;color:rgba(255,255,255,.85)">1000 0301 7745</p>
+    <div class="row"><div><p style="font-size:18px;color:rgba(255,255,255,.6)">Member</p><p style="font-size:30px;margin-top:4px">Private member</p></div>
+      <div style="text-align:right"><p style="font-size:18px;color:rgba(255,255,255,.6)">Since</p><p class="num" style="font-size:30px;margin-top:4px">2026</p></div></div>
+  </div>
+</div>
+
+<!-- ============ Flight confirmation 1600 × 620 ============ -->
+<div class="asset" data-name="pass" style="width:1600px;height:620px;border-radius:32px;background:#fff;display:grid;grid-template-columns:1fr 400px">
+  <div style="padding:56px 64px;display:flex;flex-direction:column;justify-content:space-between">
+    <div class="row" style="align-items:flex-start"><p class="mark" style="font-size:40px">Aurelle</p><p class="small" style="color:var(--muted)">Flight confirmation · AU-7Q2K</p></div>
+    <div style="display:grid;grid-template-columns:1fr 120px 1fr;align-items:end">
+      <div><p class="small" style="color:var(--muted)">Geneva · Private terminal</p><p class="num" style="font-size:150px;line-height:.85;letter-spacing:-0.03em;margin-top:12px">GVA</p></div>
+      <div style="height:1.5px;background:var(--ink);margin-bottom:40px;position:relative"><i style="position:absolute;right:-6px;top:-8px;width:17px;height:17px;border-radius:50%;background:var(--ink)"></i></div>
+      <div style="text-align:right"><p class="small" style="color:var(--muted)">Dubai · Private terminal</p><p class="num" style="font-size:150px;line-height:.85;letter-spacing:-0.03em;margin-top:12px">DXB</p></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;border-top:1.5px solid var(--line);padding-top:22px">
+      <div><p style="font-size:20px;color:var(--muted)">Date</p><p class="num" style="font-size:30px;margin-top:4px">Fri 24 Oct 2026</p></div>
+      <div><p style="font-size:20px;color:var(--muted)">Wheels up</p><p class="num" style="font-size:30px;margin-top:4px">09:40 local</p></div>
+      <div><p style="font-size:20px;color:var(--muted)">Aircraft</p><p style="font-size:30px;margin-top:4px">Super-midsize</p></div>
+      <div><p style="font-size:20px;color:var(--muted)">Guests</p><p class="num" style="font-size:30px;margin-top:4px">4 · 1 dog</p></div>
+    </div>
+  </div>
+  <div style="background:var(--mist);border-left:3px dashed rgba(14,27,42,.18);padding:56px 48px;display:flex;flex-direction:column;justify-content:space-between">
+    <div><p style="font-size:20px;color:var(--muted)">Your concierge</p><p style="font-size:32px;margin-top:6px">Camille</p><p class="num" style="font-size:22px;margin-top:4px;color:var(--ink2)">+41 22 000 00 00</p></div>
+    <div id="qr" style="width:220px;height:220px;display:grid;grid-template-columns:repeat(21,1fr);gap:0"></div>
+    <p style="font-size:20px;color:var(--muted)">Show at the private terminal</p>
+  </div>
+</div>
+
+<!-- ============ OOH ============ -->
+<div class="asset w" data-name="poster-lightbox" style="width:1200px;height:1800px;background:#000">
+  <img class="bg" src="../assets/photo/window-dark.jpg" style="object-position:48% 50%;transform:scale(1.12)" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 52%,rgba(0,0,0,.88) 80%)"></div>
+  <div class="pad" style="inset:96px 88px">
+    <p class="mark" style="font-size:48px">Aurelle</p>
+    <div><p style="font-size:132px;line-height:.98;letter-spacing:-0.025em">Every seat is<br/><span class="t">a window seat.</span></p>
+      <p class="small" style="margin-top:36px;color:rgba(255,255,255,.7)">Private aviation · Charter · Membership · Empty legs</p></div>
+  </div>
+</div>
+
+<div class="asset w" data-name="billboard" style="width:3000px;height:1000px">
+  <img class="bg" src="../assets/photo/wing-snow.jpg" style="object-position:50% 60%" alt="" />
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,18,32,.55) 0%,rgba(6,18,32,.0) 55%)"></div>
+  <div style="position:absolute;left:150px;top:140px;bottom:140px;display:flex;flex-direction:column;justify-content:space-between">
+    <p style="font-size:150px;line-height:.98;letter-spacing:-0.025em">The shortest distance<br/><span class="t">between two meetings.</span></p>
+    <p class="mark" style="font-size:72px">Aurelle</p></div>
+</div>
+
+<!-- ============ Email 600 wide ============ -->
+<div class="asset" data-name="email" style="width:600px;height:1300px;background:#fff">
+  <div style="padding:32px 36px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)"><p class="mark" style="font-size:24px">Aurelle</p><p style="font-size:13px;color:var(--muted)">Empty legs · Week 43</p></div>
+  <img src="../assets/photo/wing-clouds.jpg" alt="" style="width:100%;height:300px;object-fit:cover;object-position:50% 30%;display:block" />
+  <div style="padding:40px 36px 12px"><p style="font-size:13px;color:var(--muted)">This week</p><p style="font-size:40px;line-height:1.05;letter-spacing:-0.02em;margin-top:10px">Four aircraft flying home. <span class="t">Seats at a fraction.</span></p></div>
+  <div style="padding:16px 36px">
+    <div style="display:grid;grid-template-columns:1fr auto;padding:16px 0;border-top:1px solid var(--line)"><div><p class="num" style="font-size:22px">GVA → DXB</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Fri 24 Oct · Super-midsize · 8 seats</p></div><p class="num" style="font-size:20px">$18,400</p></div>
+    <div style="display:grid;grid-template-columns:1fr auto;padding:16px 0;border-top:1px solid var(--line)"><div><p class="num" style="font-size:22px">NCE → LTN</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Sat 25 Oct · Light · 6 seats</p></div><p class="num" style="font-size:20px">$9,800</p></div>
+    <div style="display:grid;grid-template-columns:1fr auto;padding:16px 0;border-top:1px solid var(--line)"><div><p class="num" style="font-size:22px">TEB → MIA</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Sun 26 Oct · Midsize · 7 seats</p></div><p class="num" style="font-size:20px">$12,900</p></div>
+    <div style="display:grid;grid-template-columns:1fr auto;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div><p class="num" style="font-size:22px">LBG → OLB</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Tue 28 Oct · Light · 6 seats</p></div><p class="num" style="font-size:20px">$7,600</p></div>
+  </div>
+  <div style="padding:20px 36px 36px"><span style="display:inline-flex;height:52px;align-items:center;padding:0 28px;border-radius:999px;background:var(--ink);color:#fff;font-size:16px;font-weight:500">See the full board →</span>
+    <p style="font-size:13px;color:var(--muted);margin-top:16px;line-height:1.5">Prices are indicative and confirmed by your concierge. Reply to this email and a person answers within ten minutes.</p></div>
+  <div style="position:absolute;left:0;right:0;bottom:0;background:var(--navy);color:rgba(255,255,255,.6);padding:28px 36px;font-size:12px;line-height:1.6"><p class="mark" style="color:#fff;font-size:18px">Aurelle</p><p style="margin-top:8px">Geneva · London · Dubai · New York<br/>Unsubscribe · Privacy</p></div>
+</div>
+
+<script>
+  // Decorative scan code for the flight confirmation (not a real code).
+  const q = document.getElementById('qr');
+  let seed = 7; const r = () => ((seed = (seed * 9301 + 49297) % 233280) / 233280);
+  for (let y = 0; y < 21; y++) for (let x = 0; x < 21; x++) {
+    const f = (x < 7 && y < 7) || (x > 13 && y < 7) || (x < 7 && y > 13);
+    let on = r() > .5;
+    if (f) { const lx = x > 13 ? x - 14 : x, ly = y > 13 ? y - 14 : y; on = lx === 0 || lx === 6 || ly === 0 || ly === 6 || (lx > 1 && lx < 5 && ly > 1 && ly < 5); }
+    const i = document.createElement('i'); i.style.background = on ? '#0E1B2A' : 'transparent'; q.append(i);
+  }
+</script>
+</body>
+</html>

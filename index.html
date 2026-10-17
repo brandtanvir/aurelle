@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Aurelle · Private Aviation</title>
+  <meta name="description" content="Aurelle is a private aviation operator. Charter, jet card membership and empty legs to 190+ countries, with a concierge who answers in minutes." />
+  <meta name="theme-color" content="#FAFCFE" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F2740'/%3E%3Cpath d='M32 14 46 50h-6l-3.2-8.6H27.2L24 50h-6L32 14Zm0 11-3.2 11h6.4L32 25Z' fill='%238EC5F0'/%3E%3C/svg%3E" />
+  <link rel="preload" href="fonts/DMSans-Variable.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/consent.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.min.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__mark">
+      <span class="loader__word">Aurelle</span>
+      <span class="loader__line"><i></i></span>
+      <span class="loader__sub">Private Aviation</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav is-dark" data-nav>
+    <a href="#top" class="nav__brand" aria-label="Aurelle, back to top">
+      <span>Aurelle</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#fleet">Fleet</a>
+      <a href="#experience">Experience</a>
+      <a href="#membership">Membership</a>
+      <a href="#empty-legs">Empty legs</a>
+      <a href="#reach">Reach</a>
+    </nav>
+    <div class="nav__actions">
+      <a href="#book" class="btn btn--solid btn--sm nav__book" data-book>Book a flight</a>
+      <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu" data-menu-open><i></i><i></i></button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#fleet">Fleet</a>
+      <a href="#experience">Experience</a>
+      <a href="#membership">Membership</a>
+      <a href="#empty-legs">Empty legs</a>
+      <a href="#reach">Global reach</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="#book" class="btn btn--solid" data-book>Book a flight</a>
+      <p class="menu__contact"><span class="label">Concierge · 24/7</span><a href="tel:+442000000000">+44 20 0000 0000</a></p>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- 01 · Hero -->
+    <section class="hero" id="top" aria-label="Introduction" data-nav-dark>
+      <div class="hero__sticky">
+        <div class="hero__media" data-hero-media aria-hidden="true">
+          <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="media/hero.jpg" data-src="media/hero.mp4" data-src-mobile="media/hero-m.mp4"></video>
+          <div class="hero__shade"></div>
+        </div>
+        <p class="hero__caption" data-hero-caption aria-hidden="true">Every seat is a window seat.</p>
+        <div class="hero__content wrap grid" data-hero-content>
+          <p class="label label--light hero__label" data-hero-fade><span class="num">(01)</span>Private aviation</p>
+          <p class="hero__bases" data-hero-fade>Geneva · London · Dubai · New York</p>
+          <h1 class="hero__title"><span class="hero__line"><span>Time, returned.</span></span></h1>
+          <div class="hero__side" data-hero-fade>
+            <p class="hero__sub">Private jets to 190+ countries. A concierge answers in minutes, day or night.</p>
+            <div class="hero__cta">
+              <a href="#book" class="btn btn--light" data-book data-magnetic>Plan a journey</a>
+              <a href="#fleet" class="btn btn--outline-light" data-magnetic>Explore the fleet</a>
+            </div>
+          </div>
+          <div class="hero__foot" data-hero-fade>
+            <p><span class="k">Now departing</span><span class="v" data-ticker>Geneva → Dubai · 6h 05m</span></p>
+            <p><span class="k">Concierge</span><span class="v">Replies in under 10 minutes</span></p>
+            <p class="hero__scrollcue"><span class="k">Scroll</span><span class="hero__scroll"><i></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · Manifesto -->
+    <section class="manifesto wrap grid" id="belief" aria-label="Manifesto">
+      <p class="label" data-reveal><span class="num">(02)</span>Our belief</p>
+      <p class="manifesto__text" data-manifesto>The rarest luxury is not the aircraft, the champagne or the view. It is time, and the freedom to spend it exactly as you choose.</p>
+    </section>
+
+    <!-- Numbers -->
+    <section class="numbers wrap" aria-label="Aurelle in numbers">
+      <div class="numbers__grid grid">
+        <div class="stat" data-reveal><span class="stat__n"><span data-count="190">0</span>+</span><span class="stat__l">Countries served</span></div>
+        <div class="stat" data-reveal><span class="stat__n"><span data-count="7000" data-sep>0</span>+</span><span class="stat__l">Airports within reach</span></div>
+        <div class="stat" data-reveal><span class="stat__n"><span data-count="10">0</span><small>min</small></span><span class="stat__l">Concierge response</span></div>
+        <div class="stat" data-reveal><span class="stat__n">24<small>/7</small></span><span class="stat__l">Every day of the year</span></div>
+      </div>
+    </section>
+
+    <!-- 03 · Fleet -->
+    <section class="fleet" id="fleet" aria-label="Fleet" data-nav-dark>
+      <div class="fleet__sticky wrap">
+        <div class="fleet__head grid">
+          <p class="label label--light"><span class="num">(03)</span>The fleet</p>
+          <h2 class="fleet__intro">Four classes of aircraft. <span class="tone">One standard of service.</span></h2>
+          <p class="fleet__count"><span data-fleet-index>01</span> / 04</p>
+        </div>
+        <div class="fleet__stage">
+          <canvas class="fleet__canvas" data-fleet-canvas aria-hidden="true"></canvas>
+          <div class="fleet__shadow" aria-hidden="true"></div>
+          <p class="fleet__hint" aria-hidden="true">Drag to turn</p>
+        </div>
+        <div class="fleet__info" aria-live="polite">
+          <h3 class="fleet__label"><a href="fleet/light.html" tabindex="-1" data-fleet-link data-fleet-label>Light</a></h3>
+          <p class="fleet__model" data-fleet-model>Embraer Phenom 300E</p>
+          <p class="fleet__line" data-fleet-line></p>
+          <p class="fleet__copy" data-fleet-copy></p>
+          <a class="fleet__more" href="fleet/light.html" data-fleet-link><span data-fleet-more>Explore the Light cabin</span></a>
+        </div>
+        <dl class="fleet__specs">
+          <div><dt>Range</dt><dd><span data-spec="range">0</span><small>km</small></dd></div>
+          <div><dt>Passengers</dt><dd><span data-spec="pax">0</span><small>up to</small></dd></div>
+          <div><dt>Cruise</dt><dd><span data-spec="speed">0</span><small>km/h</small></dd></div>
+          <div><dt>Cabin height</dt><dd><span data-spec="cabin">0</span><small>m</small></dd></div>
+          <div class="fleet__rate"><dt>Indicative from</dt><dd><span data-spec="rate">0</span><small>/ hour</small></dd></div>
+        </dl>
+        <div class="fleet__tabs" role="tablist" aria-label="Aircraft class" data-fleet-tabs></div>
+      </div>
+    </section>
+
+    <!-- 3.1 · The cabin -->
+    <section class="cabin wrap" aria-label="The cabin">
+      <header class="sh grid">
+        <p class="label" data-reveal><span class="num">(3.1)</span>The cabin</p>
+        <h2 class="sh__title" data-split>A room that happens to fly. <span class="tone">Leather, walnut and quiet.</span></h2>
+        <p class="sh__lede" data-reveal>Every aircraft is inspected to the Aurelle cabin standard before it flies for you: hand-finished leather, burr walnut, a table set for four, and a cabin quiet enough to sleep in.</p>
+      </header>
+      <div class="cabin__grid grid">
+        <figure class="cabin__fig cabin__fig--wide">
+          <div class="cabin__img" data-parallax><img src="media/interiors/lounge.webp" alt="Long-range jet cabin with a leather divan, club seats, walnut trim and warm cove lighting" fetchpriority="low" decoding="async" /></div>
+          <figcaption><span class="num">Fig. 01</span>Lounge and divan, Ultra-long-range</figcaption>
+        </figure>
+        <figure class="cabin__fig cabin__fig--tall">
+          <div class="cabin__img" data-parallax><img src="media/interiors/aisle.webp" alt="Cabin aisle with a quilted cream divan and leather club seats" fetchpriority="low" decoding="async" /></div>
+          <figcaption><span class="num">Fig. 02</span>Quilted divan, Midsize</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 04 · Experience: four full-screen chapters -->
+    <section class="chapters" id="experience" aria-label="The experience" data-nav-dark>
+      <div class="chapters__sticky">
+        <div class="chapters__media" aria-hidden="true">
+          <img class="chapters__video chapters__img" src="media/interiors/quiet-cabin.webp" alt="" decoding="async" />
+          <img class="chapters__video chapters__img chapters__img--right" src="media/interiors/aperitif.webp" alt="" decoding="async" />
+          <video class="chapters__video" muted loop playsinline preload="none" poster="media/ch-3.jpg" data-src="media/ch-3.mp4" data-src-mobile="media/ch-3-m.mp4"></video>
+          <video class="chapters__video" muted loop playsinline preload="none" poster="media/ch-4.jpg" data-src="media/ch-4.mp4" data-src-mobile="media/ch-4-m.mp4"></video>
+          <div class="chapters__shade"></div>
+        </div>
+        <div class="chapters__ui wrap grid">
+          <p class="label label--light chapters__label"><span class="num">(04)</span>The experience</p>
+          <h2 class="chapters__intro">Everything arranged. <span class="tone">Nothing asked twice.</span></h2>
+          <p class="chapters__count"><span data-ch-index>01</span> / 04</p>
+          <div class="chapters__texts" aria-live="polite">
+            <article class="chapter is-on" data-chapter aria-hidden="false">
+              <h3 class="chapter__title"><span class="chapter__mask"><span>Discretion</span></span></h3>
+              <p class="chapter__copy">Private terminals, crews under NDA and no shared manifests. Where you go stays between you and us.</p>
+              <p class="chapter__place">The cabin, somewhere over the Atlantic</p>
+            </article>
+            <article class="chapter" data-chapter aria-hidden="true">
+              <h3 class="chapter__title"><span class="chapter__mask"><span>Dining aloft</span></span></h3>
+              <p class="chapter__copy">Menus from the restaurants you already love, served on porcelain at 45,000 feet. Tell us once and we remember for every flight.</p>
+              <p class="chapter__place">An aperitif at 45,000 ft</p>
+            </article>
+            <article class="chapter" data-chapter aria-hidden="true">
+              <h3 class="chapter__title"><span class="chapter__mask"><span>Companions</span></span></h3>
+              <p class="chapter__copy">Dogs and cats ride in the cabin, next to you. We handle the pet passports, health papers and entry permits for every country.</p>
+              <p class="chapter__place">Cumulus, approaching Nice</p>
+            </article>
+            <article class="chapter" data-chapter aria-hidden="true">
+              <h3 class="chapter__title"><span class="chapter__mask"><span>A concierge, always</span></span></h3>
+              <p class="chapter__copy">One named concierge and one number. A reply within ten minutes, at any hour, in any time zone. Plans change, and so can your flight.</p>
+              <p class="chapter__place">The stratosphere, any hour</p>
+            </article>
+          </div>
+          <div class="chapters__tabs"><button class="chapters__tab" type="button" data-ch="0"><span class="bar"><i></i></span><span><span>01</span><span class="chapters__tt"> · Discretion</span></span></button><button class="chapters__tab" type="button" data-ch="1"><span class="bar"><i></i></span><span><span>02</span><span class="chapters__tt"> · Dining aloft</span></span></button><button class="chapters__tab" type="button" data-ch="2"><span class="bar"><i></i></span><span><span>03</span><span class="chapters__tt"> · Companions</span></span></button><button class="chapters__tab" type="button" data-ch="3"><span class="bar"><i></i></span><span><span>04</span><span class="chapters__tt"> · A concierge, always</span></span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 · Membership -->
+    <section class="membership" id="membership" aria-label="Membership">
+      <div class="wrap">
+        <header class="sh grid">
+          <p class="label" data-reveal><span class="num">(05)</span>Membership</p>
+          <h2 class="sh__title" data-split>One simple hourly rate. <span class="tone">A loyalty discount that keeps growing.</span></h2>
+          <p class="sh__lede" data-reveal>Prepay your hours once. Your hourly rate is fixed, availability is guaranteed, and the more you fly with us the lower your rate goes.</p>
+        </header>
+
+        <div class="tiers grid">
+          <article class="tier" data-reveal>
+            <p class="tier__name">Reserve</p>
+            <p class="tier__hours"><span>25</span>hours</p>
+            <ul>
+              <li>Light &amp; Midsize jets</li>
+              <li>Guaranteed availability at 48 h notice</li>
+              <li>Fixed hourly rate, no hidden fees</li>
+            </ul>
+          </article>
+          <article class="tier tier--feature" data-reveal>
+            <p class="tier__name">Signature <span class="tier__badge">Most chosen</span></p>
+            <p class="tier__hours"><span>50</span>hours</p>
+            <ul>
+              <li>All classes up to Ultra-long-range</li>
+              <li>Guaranteed availability at 24 h notice</li>
+              <li>A named personal concierge</li>
+              <li>Rate falls as your hours add up</li>
+            </ul>
+          </article>
+          <article class="tier" data-reveal>
+            <p class="tier__name">Sovereign</p>
+            <p class="tier__hours"><span>100+</span>hours</p>
+            <ul>
+              <li>The entire fleet, including Flagship</li>
+              <li>Guaranteed availability at 12 h notice</li>
+              <li>Dedicated crew on request</li>
+              <li>The steepest loyalty discount</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="calc grid" data-calc data-reveal>
+          <div class="calc__controls">
+            <p class="label"><span class="num">(5.1)</span>Your estimate</p>
+            <label class="calc__label" for="calc-hours">Hours you fly each year <output data-calc-hours-out>50</output></label>
+            <input type="range" id="calc-hours" min="10" max="300" step="5" value="50" data-calc-hours />
+            <fieldset class="seg" data-calc-class>
+              <legend class="calc__label">Preferred class</legend>
+            </fieldset>
+          </div>
+          <div class="calc__result" aria-live="polite">
+            <div class="calc__row">
+              <span class="calc__k">Year one rate</span>
+              <span class="calc__v"><span data-calc-y1>$0</span><small>/ hour</small></span>
+            </div>
+            <div class="calc__row">
+              <span class="calc__k">By year three</span>
+              <span class="calc__v"><span data-calc-y3>$0</span><small>/ hour</small></span>
+            </div>
+            <div class="calc__bar" aria-hidden="true"><i data-calc-bar></i></div>
+            <p class="calc__note"><span data-calc-tier>Signature</span> · <span data-calc-save>0%</span> under on-demand charter by year three. Indicative only.</p>
+            <a href="#book" class="btn btn--solid" data-book>Talk to membership</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 · Global reach -->
+    <section class="reach" id="reach" aria-label="Global reach and route planner" data-nav-dark>
+      <div class="wrap">
+        <header class="sh sh--dark grid">
+          <p class="label label--light" data-reveal><span class="num">(06)</span>Global reach</p>
+          <h2 class="sh__title" data-split>Fly anywhere. <span class="tone">See exactly how long it takes.</span></h2>
+        </header>
+        <div class="reach__body grid">
+          <div class="reach__globe">
+            <canvas class="reach__canvas" data-globe-canvas aria-hidden="true"></canvas>
+            <p class="globe__tag" data-globe-tag="a" aria-hidden="true"><span></span><small></small></p>
+            <p class="globe__tag" data-globe-tag="b" aria-hidden="true"><span></span><small></small></p>
+          </div>
+          <div class="planner" data-planner>
+            <div class="planner__row">
+              <label class="field field--select"><span>From</span><select data-plan-from></select></label>
+              <button class="planner__swap" type="button" aria-label="Swap origin and destination" data-plan-swap>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4 3 8l4 4M3 8h14M17 20l4-4-4-4M21 16H7" /></svg>
+              </button>
+              <label class="field field--select"><span>To</span><select data-plan-to></select></label>
+            </div>
+            <dl class="planner__out" aria-live="polite">
+              <div><dt>Distance</dt><dd data-plan-km>—</dd></div>
+              <div><dt>Flight time</dt><dd data-plan-time>—</dd></div>
+              <div><dt>Suggested</dt><dd data-plan-class>—</dd></div>
+            </dl>
+            <a href="#book" class="btn btn--light" data-plan-book>Continue to booking</a>
+            <p class="planner__note">Great-circle distance, typical cruise speed plus taxi and climb. Your concierge confirms exact times.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 · Empty legs -->
+    <section class="legs wrap" id="empty-legs" aria-label="Empty legs">
+      <header class="sh grid">
+        <p class="label" data-reveal><span class="num">(07)</span>Empty legs</p>
+        <h2 class="sh__title" data-split>Repositioning flights. <span class="tone">Up to 75% below charter.</span></h2>
+        <p class="sh__lede" data-reveal>When an aircraft needs to fly somewhere empty to collect its next passengers, you can take the seats. Same jet, same crew, same service. Listed for a short time only.</p>
+      </header>
+      <div class="board" role="table" aria-label="Available empty legs">
+        <div class="board__row board__row--head" role="row">
+          <span role="columnheader">Route</span><span role="columnheader">Date</span><span role="columnheader">Aircraft</span><span role="columnheader">Seats</span><span role="columnheader">Price</span><span role="columnheader"><span class="sr">Action</span></span>
+        </div>
+        <div data-board></div>
+      </div>
+    </section>
+
+    <!-- 08 · Contact -->
+    <section class="cta" id="contact" aria-label="Contact" data-nav-dark>
+      <div class="cta__media" aria-hidden="true">
+        <video class="cta__video" muted loop playsinline preload="none" poster="media/hero.jpg" data-src="media/hero.mp4"></video>
+        <div class="cta__shade"></div>
+      </div>
+      <div class="cta__inner wrap grid">
+        <p class="label label--light" data-reveal><span class="num">(08)</span>Wherever next</p>
+        <h2 class="cta__title" data-split>Your aircraft is one call away.</h2>
+        <div class="cta__actions" data-reveal>
+          <a href="#book" class="btn btn--light btn--lg" data-book data-magnetic>Book a flight</a>
+          <a href="tel:+442000000000" class="btn btn--outline-light btn--lg" data-magnetic>+44 20 0000 0000</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-nav-dark>
+    <div class="wrap">
+      <div class="footer__top grid">
+        <div class="footer__concierge">
+          <p class="label label--light"><span class="num">(09)</span>Concierge, 24/7</p>
+          <a class="footer__phone" href="tel:+442000000000">+44 20 0000 0000</a>
+          <p class="footer__reach"><a href="mailto:concierge@aurelle.example">concierge@aurelle.example</a><a href="https://wa.me/442000000000" rel="noopener">WhatsApp</a></p>
+          <p class="footer__promise">A named concierge replies within ten minutes, any hour, any time zone.</p>
+        </div>
+        <nav class="footer__col" aria-label="Fly">
+          <p class="footer__h">Fly</p>
+          <a href="#book" data-book>Charter a jet</a><a href="#membership">Membership</a><a href="#empty-legs">Empty legs</a><a href="#fleet">The fleet</a><a href="#reach">Route planner</a>
+        </nav>
+        <nav class="footer__col" aria-label="Company">
+          <p class="footer__h">Company</p>
+          <a href="#belief">Our belief</a><a href="safety.html">Safety &amp; standards</a><a href="operator-disclosure.html">Operator disclosure</a><a href="privacy.html">Privacy &amp; your data</a>
+        </nav>
+        <nav class="footer__col" aria-label="Support">
+          <p class="footer__h">Support</p>
+          <a href="tel:+442000000000">Call the concierge</a><a href="#book" data-book>Request a quote</a><a href="#alerts">Empty-leg alerts</a><a href="mailto:concierge@aurelle.example">Email us</a>
+        </nav>
+      </div>
+
+      <div class="footer__mid grid">
+        <form class="footer__brief" id="alerts" data-brief novalidate>
+          <label class="footer__h" for="brief-email">Empty-leg alerts</label>
+          <p class="footer__briefcopy">Discounted one-way flights from your home airport, sent when they appear. Nothing else.</p>
+          <div class="footer__field">
+            <input id="brief-email" type="email" autocomplete="email" placeholder="Email address" required />
+            <button type="submit" class="btn btn--light btn--sm">Notify me</button>
+          </div>
+          <p class="footer__briefmsg" data-brief-msg aria-live="polite"></p>
+        </form>
+        <div class="footer__bases">
+          <p class="footer__h">Bases</p>
+          <ul>
+            <li><span>Geneva</span><small>Private terminal, GVA</small><time data-tz="Europe/Zurich">--:--</time></li>
+            <li><span>London</span><small>Farnborough, FAB</small><time data-tz="Europe/London">--:--</time></li>
+            <li><span>Dubai</span><small>Al Maktoum, DWC</small><time data-tz="Asia/Dubai">--:--</time></li>
+            <li><span>New York</span><small>Teterboro, TEB</small><time data-tz="America/New_York">--:--</time></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__trust grid">
+        <p class="footer__h">Safety</p>
+        <p class="footer__creds">ARGUS Platinum · Wyvern Wingman · IS-BAO Stage III · <a href="safety.html">How we vet operators</a></p>
+      </div>
+
+      <div class="footer__word" aria-hidden="true"><span data-fit>Aurelle</span></div>
+
+      <div class="footer__legal grid">
+        <span class="footer__copy">© <span data-year>2026</span> Aurelle Aviation SA</span>
+        <nav class="footer__links" aria-label="Legal"><a href="privacy.html">Privacy</a><a href="cookies.html">Cookies</a><a href="terms-of-carriage.html">Terms of carriage</a><a href="operator-disclosure.html">Operator disclosure</a><button type="button" data-consent-open>Cookie settings</button></nav>
+        <span class="footer__locale">English · USD</span>
+        <a class="footer__top-link" href="#top">Back to top ↑</a>
+        <p class="footer__fine"><strong class="footer__concept">Concept project.</strong> Aurelle is a fictional brand made as a design portfolio piece, not an airline or charter operator. Ratings, certificates, prices and contact details are illustrative, and the forms send nothing. Aurelle arranges flights on aircraft operated by FAA Part 135 and EASA certified air carriers. Prices are indicative and subject to availability.
+          <span data-model-credit="assets/jet.glb" hidden>3D model “Bombardier Learjet 45” by KarimFatatry, CC BY 4.0.</span>
+          <span data-model-credit="assets/jet-black.glb" hidden>3D model “Private jet” by pmglobalmarketinginfo1, CC BY 4.0.</span>
+          Earth at night: NASA Earth Observatory. Cabin photography: Pexels.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking overlay -->
+  <div class="booking" id="book" role="dialog" aria-modal="true" aria-labelledby="booking-title" hidden data-booking>
+    <div class="booking__inner">
+      <header class="booking__top">
+        <p class="label" id="booking-title"><span class="num">(—)</span>Request a flight</p>
+        <ol class="booking__steps" aria-label="Progress" data-steps>
+          <li class="is-active">Journey</li><li>Aircraft</li><li>Details</li><li>Confirmed</li>
+        </ol>
+        <button class="booking__close" type="button" aria-label="Close booking" data-booking-close><i></i><i></i></button>
+      </header>
+
+      <form class="booking__form" novalidate data-booking-form>
+        <!-- Step 1 -->
+        <fieldset class="step is-active" data-step="0">
+          <legend class="step__title">Where are you going?</legend>
+          <div class="seg seg--inline" role="radiogroup" aria-label="Trip type">
+            <label><input type="radio" name="trip" value="oneway" checked /><span>One way</span></label>
+            <label><input type="radio" name="trip" value="return" /><span>Return</span></label>
+          </div>
+          <div class="grid2">
+            <div class="field ac" data-ac="from">
+              <label for="b-from">From</label>
+              <input id="b-from" name="from" autocomplete="off" placeholder="City or airport" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="b-from-list" required />
+              <ul class="ac__list" id="b-from-list" role="listbox" hidden></ul>
+              <p class="field__err" aria-live="polite"></p>
+            </div>
+            <div class="field ac" data-ac="to">
+              <label for="b-to">To</label>
+              <input id="b-to" name="to" autocomplete="off" placeholder="City or airport" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="b-to-list" required />
+              <ul class="ac__list" id="b-to-list" role="listbox" hidden></ul>
+              <p class="field__err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="b-date">Departure</label>
+              <input id="b-date" name="date" type="date" required />
+              <p class="field__err" aria-live="polite"></p>
+            </div>
+            <div class="field" data-return-field hidden>
+              <label for="b-return">Return</label>
+              <input id="b-return" name="returnDate" type="date" />
+              <p class="field__err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="b-pax">Passengers</label>
+              <div class="stepper">
+                <button type="button" aria-label="Fewer passengers" data-pax="-1">−</button>
+                <input id="b-pax" name="pax" type="number" min="1" max="19" value="2" inputmode="numeric" />
+                <button type="button" aria-label="More passengers" data-pax="1">+</button>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Step 2 -->
+        <fieldset class="step" data-step="1">
+          <legend class="step__title">Choose your aircraft</legend>
+          <p class="step__sub" data-route-summary></p>
+          <div class="classes" role="radiogroup" aria-label="Aircraft class" data-classes></div>
+          <p class="field__err" data-class-err aria-live="polite"></p>
+        </fieldset>
+
+        <!-- Step 3 -->
+        <fieldset class="step" data-step="2">
+          <legend class="step__title">Who should we call?</legend>
+          <div class="grid2">
+            <div class="field"><label for="b-name">Full name</label><input id="b-name" name="name" autocomplete="name" required /><p class="field__err" aria-live="polite"></p></div>
+            <div class="field"><label for="b-email">Email</label><input id="b-email" name="email" type="email" autocomplete="email" required /><p class="field__err" aria-live="polite"></p></div>
+            <div class="field"><label for="b-phone">Phone</label><input id="b-phone" name="phone" type="tel" autocomplete="tel" required /><p class="field__err" aria-live="polite"></p></div>
+            <div class="field">
+              <span class="field__legend">Preferences</span>
+              <div class="chips">
+                <label><input type="checkbox" name="pref" value="Pets onboard" /><span>Pets onboard</span></label>
+                <label><input type="checkbox" name="pref" value="Catering" /><span>Catering</span></label>
+                <label><input type="checkbox" name="pref" value="Ground transport" /><span>Ground transport</span></label>
+              </div>
+            </div>
+            <div class="field field--full"><label for="b-notes">Anything else? <small>(optional)</small></label><textarea id="b-notes" name="notes" rows="3"></textarea></div>
+          </div>
+          <p class="step__privacy">We use these details only to arrange your flight. They are never shared or sold.</p>
+        </fieldset>
+
+        <!-- Step 4 -->
+        <fieldset class="step step--done" data-step="3">
+          <legend class="step__title">Request received.</legend>
+          <p class="done__ref">Reference <strong data-ref>AUR-0000</strong></p>
+          <p class="done__copy">Your concierge will call within ten minutes to confirm the aircraft, the price and the details. Nothing is booked or charged until you approve.</p>
+          <dl class="done__summary" data-summary></dl>
+        </fieldset>
+
+        <footer class="booking__nav">
+          <div class="booking__estimate" data-estimate aria-live="polite"></div>
+          <div class="booking__buttons">
+            <button type="button" class="btn btn--ghost" data-prev hidden>Back</button>
+            <button type="submit" class="btn btn--solid" data-next>Continue</button>
+          </div>
+        </footer>
+      </form>
+    </div>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/consent.js"></script>
+</body>
+</html>
